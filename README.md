@@ -1,5 +1,6 @@
 Demonstrate On-Behalf-Of flow. Acquire a token using MSAL JS 2.0 and call the backend api which performs SharePoint operations impersonating the user represented by userAssertion, using the OBO flow.
-Pre-requisites
+
+Pre-requisites for setting up this sample application
 
 Create a sharepoint list call it as OBOTest
 Update the Web.config with Tenant, Audience, ClientId, AppKey, AADInstance, RedirectUri.
